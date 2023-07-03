@@ -104,7 +104,7 @@ const TaskList: React.FC<TaskListProps> = ({ tasks, updateTask, deleteTask }) =>
             <Typography variant="h6">{task.title}</Typography>
             <Typography variant="subtitle1">Status: {task.status}</Typography>
             <Button variant="contained" color="primary" onClick={() => handleViewTaskClick(task.id)}>
-              View Details
+              Add and Show Details
             </Button>
             <Button
               variant="contained"
